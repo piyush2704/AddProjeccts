@@ -1,23 +1,44 @@
-<!--Navigation-->
-<div class="navbar-fixed">
-  <nav id="nav_f" class="default_color" role="navigation">
-    <div class="container">
-      <div class="nav-wrapper">
-        <a href="#" id="logo-container" class="brand-logo">NG Cli Seed</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#intro">Service</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="#intro">Service</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-      </div>
+<nav class="nav has-shadow">
+    <div class="nav-left">
+        <a class="nav-item">
+            <!--<img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">-->
+            Device Configuration Manager
+        </a>
     </div>
-  </nav>
-</div>
+
+
+    <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+    <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+    <span class="nav-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+    </span>
+
+    <!-- This "nav-menu" is hidden on mobile -->
+    <!-- Add the modifier "is-active" to display it on mobile -->
+    <div class="nav-right nav-menu">
+
+        <div class="nav-item">
+            <div class="field is-grouped">
+                <p class="control">
+                    <a class="button">
+                        <span class="icon">
+      <i class="fa fa-bell"></i>
+    </span>
+                        <span>Notification</span>
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button">
+                        <span class="icon">
+      <i class="fa fa-user"></i>
+    </span>
+                        <span>BuildPM</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</nav>

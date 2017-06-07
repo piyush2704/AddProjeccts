@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+.inverted-background {
+    background-color: #eff5f5 !important;
+}
+
+.projects-tab {
+    top: 10px;
+    position: relative;
+}
